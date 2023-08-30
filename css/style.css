@@ -145,7 +145,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/assets/bg2.jpg");
+  background-image: url("/assets/bg-profil.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -158,11 +158,6 @@ body {
   width: 100%;
   height: 30%;
   bottom: 0;
-  background: linear-gradient(
-    0deg,
-    rgb(19, 19, 19) 8%,
-    rgba(255, 255, 255, 0) 25%
-  );
 }
 
 .hero .content {
@@ -207,82 +202,6 @@ body {
 }
 
 .hero .content .cta:hover {
-  background-color: var(--black);
-  color: var(--yellow);
-}
-
-.profil {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("/assets/bg-profil.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.profil::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 30%;
-  bottom: 0;
-  background: linear-gradient(
-    0deg,
-    rgb(19, 19, 19) 8%,
-    rgba(255, 255, 255, 0) 25%
-  );
-}
-
-.profil .content {
-  padding: 1.4rem 7%;
-  max-width: 60rem;
-  text-align: center;
-}
-
-.profil .content h1 {
-  font-size: 3rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  color: var(--white);
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  line-height: 1.2;
-}
-
-.profil .content h1 span {
-  color: var(--yellow);
-}
-
-.profil .content ul {
-  padding-top: 3rem;
-}
-
-.profil .content ul li {
-  font-size: 1.2rem;
-  text-align: start;
-  max-width: 30rem;
-  line-height: 1.4;
-  letter-spacing: 1px;
-  color: var(--white);
-  font-weight: 300;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-}
-
-.profil .content .cta {
-  display: inline-block;
-  padding: 1rem 3rem;
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  color: var(--black);
-  background-color: var(--yellow);
-  border-radius: 2rem;
-  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  transition: 0.3s;
-}
-
-.profil .content .cta:hover {
   background-color: var(--black);
   color: var(--yellow);
 }
@@ -360,77 +279,6 @@ body {
   padding-left: 20px;
 }
 
-.achievement {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-image: url("/assets/bg-achieve2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.achievement::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 30%;
-  bottom: 0;
-}
-
-.achievement .content {
-  padding: 1.4rem 7%;
-  max-width: 60rem;
-  text-align: center;
-}
-
-.achievement .content h1 {
-  font-size: 3rem;
-  font-weight: 600;
-  margin-top: 2rem;
-  color: var(--white);
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  line-height: 1.2;
-}
-
-.achievement .content h1 span {
-  color: var(--yellow);
-}
-
-.achievement .content ul {
-  padding-top: 3rem;
-}
-
-.achievement .content ul li {
-  font-size: 1.2rem;
-  text-align: start;
-  max-width: 30rem;
-  line-height: 1.4;
-  letter-spacing: 1px;
-  color: var(--white);
-  font-weight: 300;
-  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-}
-
-.achievement .content .cta {
-  display: inline-block;
-  padding: 1rem 3rem;
-  margin-top: 2rem;
-  font-size: 1.2rem;
-  color: var(--black);
-  background-color: var(--yellow);
-  border-radius: 2rem;
-  box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-  transition: 0.3s;
-}
-
-.achievement .content .cta:hover {
-  background-color: var(--black);
-  color: var(--yellow);
-}
-
 .about,
 .vission-mission,
 .facilities,
@@ -495,7 +343,7 @@ body {
   grid-template-rows: 1fr;
   grid-column-gap: 30px;
   grid-row-gap: 0px;
-  padding: 0 7%;
+  padding: 4rem 7% 0;
 }
 
 .parent .grid {
@@ -742,18 +590,6 @@ footer .credit a {
     transform: scaleX(0.2);
   }
 
-  .profil .content ul li {
-    font-size: 1.2rem;
-    text-align: start;
-    max-width: 30rem;
-    line-height: 1.4;
-    letter-spacing: 1px;
-    color: var(--white);
-    font-weight: 300;
-    text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
-    margin-left: 2rem;
-  }
-
   .about .row {
     flex-wrap: wrap;
   }
@@ -794,7 +630,7 @@ footer .credit a {
     grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 15px;
-    padding: 0 7%;
+    padding: 4rem 7% 0;
   }
 
   .story .row {
